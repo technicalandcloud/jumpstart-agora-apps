@@ -18,9 +18,9 @@ spec:
     spec:
       chart: ./contoso_supermarket/operations/contoso_supermarket/charts/queue-monitoring-frontend
   values:
-    acr_name: _acrName__
+    acr_name: agacrc17af
     branch_name: "staging"
     image_tag: v1.0
-    github_User: __githubUser__
+    github_User: technicalandcloud
     queue_monitoring_frontend:
       live_view_enabled: "True"
